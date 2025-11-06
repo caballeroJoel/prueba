@@ -1,0 +1,49 @@
+* {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+    background-color: var(--col1);
+
+    display: flex;
+    justify-content: center;
+    
+    main {
+        width: 1440px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+
+        header {
+            width: 1092px;
+
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 115px;
+                    height: 30px;
+                }
+                &.menu {
+                    width: 620px;
+                    justify-content: space-between;
+
+                    p {
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            
+        }
+
+    }
+
+}
